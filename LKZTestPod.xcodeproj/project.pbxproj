@@ -15,9 +15,7 @@
 		0AA0B28F219004FF0046E6CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA0B28E219004FF0046E6CA /* main.m */; };
 		0AA0B299219004FF0046E6CA /* LKZTestPodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA0B298219004FF0046E6CA /* LKZTestPodTests.m */; };
 		0AA0B2A4219004FF0046E6CA /* LKZTestPodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA0B2A3219004FF0046E6CA /* LKZTestPodUITests.m */; };
-		0AA0B2B3219005D10046E6CA /* SayHello.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA0B2B2219005D10046E6CA /* SayHello.m */; };
-		0AA0B2B4219005D10046E6CA /* SayHello.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA0B2B2219005D10046E6CA /* SayHello.m */; };
-		0AA0B2B5219005D10046E6CA /* SayHello.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA0B2B2219005D10046E6CA /* SayHello.m */; };
+		0AD7D8B621901BA00064776E /* SayHello.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD7D8B521901BA00064776E /* SayHello.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +52,8 @@
 		0AA0B29F219004FF0046E6CA /* LKZTestPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKZTestPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA0B2A3219004FF0046E6CA /* LKZTestPodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKZTestPodUITests.m; sourceTree = "<group>"; };
 		0AA0B2A5219004FF0046E6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0AA0B2B1219005D10046E6CA /* SayHello.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SayHello.h; sourceTree = "<group>"; };
-		0AA0B2B2219005D10046E6CA /* SayHello.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SayHello.m; sourceTree = "<group>"; };
+		0AD7D8B421901BA00064776E /* SayHello.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SayHello.h; sourceTree = "<group>"; };
+		0AD7D8B521901BA00064776E /* SayHello.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SayHello.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +104,7 @@
 		0AA0B27E219004FE0046E6CA /* LKZTestPod */ = {
 			isa = PBXGroup;
 			children = (
+				0AD7D8B321901BA00064776E /* Pod */,
 				0AA0B27F219004FE0046E6CA /* AppDelegate.h */,
 				0AA0B280219004FE0046E6CA /* AppDelegate.m */,
 				0AA0B282219004FE0046E6CA /* ViewController.h */,
@@ -115,7 +114,6 @@
 				0AA0B28A219004FF0046E6CA /* LaunchScreen.storyboard */,
 				0AA0B28D219004FF0046E6CA /* Info.plist */,
 				0AA0B28E219004FF0046E6CA /* main.m */,
-				0AA0B2B6219005ED0046E6CA /* Pod */,
 			);
 			path = LKZTestPod;
 			sourceTree = "<group>";
@@ -138,14 +136,13 @@
 			path = LKZTestPodUITests;
 			sourceTree = "<group>";
 		};
-		0AA0B2B6219005ED0046E6CA /* Pod */ = {
+		0AD7D8B321901BA00064776E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0AA0B2B1219005D10046E6CA /* SayHello.h */,
-				0AA0B2B2219005D10046E6CA /* SayHello.m */,
+				0AD7D8B421901BA00064776E /* SayHello.h */,
+				0AD7D8B521901BA00064776E /* SayHello.m */,
 			);
-			name = Pod;
-			path = "New Group";
+			path = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +277,7 @@
 			files = (
 				0AA0B284219004FE0046E6CA /* ViewController.m in Sources */,
 				0AA0B28F219004FF0046E6CA /* main.m in Sources */,
-				0AA0B2B3219005D10046E6CA /* SayHello.m in Sources */,
+				0AD7D8B621901BA00064776E /* SayHello.m in Sources */,
 				0AA0B281219004FE0046E6CA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +286,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AA0B2B4219005D10046E6CA /* SayHello.m in Sources */,
 				0AA0B299219004FF0046E6CA /* LKZTestPodTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,7 +294,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AA0B2B5219005D10046E6CA /* SayHello.m in Sources */,
 				0AA0B2A4219004FF0046E6CA /* LKZTestPodUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

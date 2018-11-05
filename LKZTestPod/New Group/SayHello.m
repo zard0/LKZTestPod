@@ -16,7 +16,7 @@
 @implementation SayHello
 
 +(void)say{
-    NSLog(@"我的私有pod");
+    NSLog(@"我的私有pod，啦啦啦");
 }
 
 @end
